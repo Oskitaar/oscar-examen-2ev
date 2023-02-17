@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen aplicacions web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <a href="index.html"><h1>Premis GOYA</h1></a> 
+    </header>
+    <nav>
+        <a href="index.html">Edicions anteriors - </a> <a href="index.html">Nominats - </a> <a href="contacte.html">Contacte</a>
+    </nav>
+
+
+
+    <div id="formulario">
+        <form action="votacio.php" name="votacio" id="votacio">
+<p>Contacte</p>
+Nom <input type="text" placeholder="Nom" name="Nombre" id="nombre"> Cognoms <input type="text" placeholder="Cognoms" name="apellidos" id="apellidos">
+<br>
+
+<br>
+Peli favorita <select name="peliculas" id="peliculas">
+    <option value="Alcarras">Alcarràs</option>
+    <option value="As Bestas">As Bestas</option>
+    <option value="cincolobitos">Cinco Lobitos</option>
+    <option value="lamaternal">La Maternal</option>
+    <option value="modelo77">Modelo 77</option>
+</select>
+
+Puntuació <input type="number" name="puntuacion" id="puntuacion" min="1" max="10">
+<br>
+<br>
+
+Opinió <textarea name="opinio" id="opinio" cols="35" rows="12"></textarea>
+<br>
+
+<input type="submit" name="votar" value="Votar" id="votar">
+
+</form>
+
+    </div>
+</body>
+</html>
