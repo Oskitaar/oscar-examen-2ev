@@ -24,7 +24,7 @@ div#edicions{
      width: 400px;
     height: 400px;
     position:absolute;
-    left: 20%;
+    left: 30%;
     background-color: lightsalmon;
     color: blue;
     text-align: center;
@@ -45,7 +45,7 @@ div#contacte{
     width: 400px;
     height: 400px;
     position:absolute;
-    left: 60%;
+    left: 50%;
     top: 20%;
     background-color: lightsalmon;
     color: blue;
